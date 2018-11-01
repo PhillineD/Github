@@ -210,13 +210,13 @@
             tools:text="Eyes" />
 
         <CheckBox
-            android:id="@+id/checkBoxBody"
+            android:id="@+id/checkBoxNose"
             android:layout_width="134dp"
             android:layout_height="wrap_content"
             android:onClick="checkClicked"
-            android:text="Body"
+            android:text="Nose"
             app:layout_column="0"
             app:layout_row="0"
-            tools:text="Body" />
+            tools:text="Nose" />
     </android.support.v7.widget.GridLayout>
 </android.support.constraint.ConstraintLayout>
