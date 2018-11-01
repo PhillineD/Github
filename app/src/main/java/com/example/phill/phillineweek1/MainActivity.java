@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
                     imageViewArms.setVisibility(View.VISIBLE);
                 else
                     imageViewArms.setVisibility(View.INVISIBLE);
-//                imageViewArms.setVisibility(imageViewArms.getVisibility() == View.VISIBLE ? View.INVISIBLE : View.VISIBLE);
                 break;
             case R.id.checkBoxEars:
                 imageViewEars = (ImageView) findViewById(R.id.imageViewEars);
@@ -46,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
                     imageViewEars.setVisibility(View.VISIBLE);
                 else
                     imageViewEars.setVisibility(View.INVISIBLE);
-//                imageViewEars.setVisibility(imageViewEars.getVisibility() == View.VISIBLE ? View.INVISIBLE : View.VISIBLE);
                 break;
             case R.id.checkBoxEyes:
                 imageViewEyes = (ImageView) findViewById(R.id.imageViewEyes);
@@ -54,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
                     imageViewEyes.setVisibility(View.VISIBLE);
                 else
                     imageViewEyes.setVisibility(View.INVISIBLE);
-//                imageViewEyes.setVisibility(imageViewEyes.getVisibility() == View.VISIBLE ? View.INVISIBLE : View.VISIBLE);
                 break;
             case R.id.checkBoxEyebrows:
                 imageViewEyebrows = (ImageView) findViewById(R.id.imageViewEyebrows);
@@ -62,7 +59,6 @@ public class MainActivity extends AppCompatActivity {
                     imageViewEyebrows.setVisibility(View.VISIBLE);
                 else
                     imageViewEyebrows.setVisibility(View.INVISIBLE);
-//                imageViewEyebrows.setVisibility(imageViewEyebrows.getVisibility() == View.VISIBLE ? View.INVISIBLE : View.VISIBLE);
                 break;
             case R.id.checkBoxGlasses:
                 imageViewGlasses = (ImageView) findViewById(R.id.imageViewGlasses);
@@ -70,7 +66,6 @@ public class MainActivity extends AppCompatActivity {
                     imageViewGlasses.setVisibility(View.VISIBLE);
                 else
                     imageViewGlasses.setVisibility(View.INVISIBLE);
-//                imageViewGlasses.setVisibility(imageViewGlasses.getVisibility() == View.VISIBLE ? View.INVISIBLE : View.VISIBLE);
                 break;
             case R.id.checkBoxNose:
                 imageViewNose = (ImageView) findViewById(R.id.imageViewNose);
@@ -78,7 +73,6 @@ public class MainActivity extends AppCompatActivity {
                     imageViewNose.setVisibility(View.VISIBLE);
                 else
                     imageViewNose.setVisibility(View.INVISIBLE);
-//                imageViewNose.setVisibility(imageViewNose.getVisibility() == View.VISIBLE ? View.INVISIBLE : View.VISIBLE);
                 break;
 
             case R.id.checkBoxShoes:
@@ -87,7 +81,6 @@ public class MainActivity extends AppCompatActivity {
                     imageViewshoes.setVisibility(View.VISIBLE);
                 else
                     imageViewshoes.setVisibility(View.INVISIBLE);
-//                imageViewshoes.setVisibility(imageViewshoes.getVisibility() == View.VISIBLE ? View.INVISIBLE : View.VISIBLE);
                 break;
 
             case R.id.checkBoxMustage:
@@ -96,7 +89,6 @@ public class MainActivity extends AppCompatActivity {
                     imageViewMustage.setVisibility(View.VISIBLE);
                 else
                     imageViewMustage.setVisibility(View.INVISIBLE);
-//                imageViewMustage.setVisibility(imageViewMustage.getVisibility() == View.VISIBLE ? View.INVISIBLE : View.VISIBLE);
                 break;
 
             case R.id.checkBoxMouth:
@@ -105,7 +97,6 @@ public class MainActivity extends AppCompatActivity {
                     imageViewMouth.setVisibility(View.VISIBLE);
                 else
                     imageViewMouth.setVisibility(View.INVISIBLE);
-//                imageViewMouth.setVisibility(imageViewMouth.getVisibility() == View.VISIBLE ? View.INVISIBLE : View.VISIBLE);
                 break;
             case R.id.checkBoxHed:
                 imageViewHed = (ImageView) findViewById(R.id.imageViewHed);
@@ -113,7 +104,6 @@ public class MainActivity extends AppCompatActivity {
                     imageViewHed.setVisibility(View.VISIBLE);
                 else
                     imageViewHed.setVisibility(View.INVISIBLE);
-//                imageViewHed.setVisibility(imageViewHed.getVisibility() == View.VISIBLE ? View.INVISIBLE : View.VISIBLE);
                 break;
 
         }
