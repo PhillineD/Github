@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
         imageViewEyes = (ImageView) findViewById(R.id.imageViewEyes);
         imageViewEyebrows = (ImageView) findViewById(R.id.imageViewEyebrows);
 
+        // If there is something saved in saved InstanceState
+        // Since visibility is 0,1 or 2, check 0
         if (savedInstanceState != null) {
             if (savedInstanceState.getInt("Arms") == 0) {
                 imageViewArms.setVisibility(View.VISIBLE);
@@ -74,6 +76,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState); // always call super
+
+        // put int, visibility of the exta's
         outState.putInt("Hat", imageViewHed.getVisibility());
         outState.putInt("Ears", imageViewEars.getVisibility());
         outState.putInt("Arms", imageViewArms.getVisibility());
