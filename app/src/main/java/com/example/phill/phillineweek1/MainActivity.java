@@ -44,18 +44,47 @@ public class MainActivity extends AppCompatActivity {
         imageViewEyebrows = (ImageView) findViewById(R.id.imageViewEyebrows);
 
         // if there is something saved in saved InstanceState
-
+        // since visibility is 0,1 or 2, check 0
         if (savedInstanceState != null) {
-
-            imageViewEars.setVisibility(savedInstanceState.getInt("Amrs"));
+//            if (savedInstanceState.getInt("Arms") == 0) {
+////                imageViewArms.setVisibility(View.VISIBLE);
+////            }
+            imageViewEars.setVisibility(savedInstanceState.getInt("Arms"));
             imageViewEyebrows.setVisibility(savedInstanceState.getInt("Ears"));
             imageViewEyes.setVisibility(savedInstanceState.getInt("Eyes"));
             imageViewGlasses.setVisibility(savedInstanceState.getInt("Glasses"));
             imageViewHed.setVisibility(savedInstanceState.getInt("Hat"));
             imageViewMouth.setVisibility(savedInstanceState.getInt("Mouth"));
-            imageViewMustage.setVisibility(savedInstanceState.getInt("Mustache"));
+            imageViewMustage.setVisibility(savedInstanceState.getInt(" Mustache"));
             imageViewNose.setVisibility(savedInstanceState.getInt("Nose"));
             imageViewshoes.setVisibility(savedInstanceState.getInt("Shoes"));
+//            if (savedInstanceState.getInt("Ears") == 0) {
+//                imageViewEars.setVisibility(View.VISIBLE);
+//            }
+//            if (savedInstanceState.getInt("Eyebrows") == 0) {
+//                imageViewEyebrows.setVisibility(View.VISIBLE);
+//            }
+//            if (savedInstanceState.getInt("Eyes") == 0) {
+//                imageViewEyes.setVisibility(View.VISIBLE);
+//            }
+//            if (savedInstanceState.getInt("Glasses") == 0) {
+//                imageViewGlasses.setVisibility(View.VISIBLE);
+//            }
+//            if (savedInstanceState.getInt("Hat") == 0) {
+//                imageViewHed.setVisibility(View.VISIBLE);
+//            }
+//            if (savedInstanceState.getInt("Mouth") == 0) {
+//                imageViewMouth.setVisibility(View.VISIBLE);
+//            }
+//            if (savedInstanceState.getInt("Mustache") == 0) {
+//                imageViewMustage.setVisibility(View.VISIBLE);
+//            }
+//            if (savedInstanceState.getInt("Nose") == 0) {
+//                imageViewNose.setVisibility(View.VISIBLE);
+//            }
+//            if (savedInstanceState.getInt("Shoes") == 0) {
+//                imageViewshoes.setVisibility(View.VISIBLE);
+//            }
         }
     }
 
