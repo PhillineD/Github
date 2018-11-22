@@ -1,6 +1,4 @@
-# Github
-
-Mr Potatohead
+# Mr Potatohead
 
 You can click on checkboxes to add accessories to Mister Potatohead. 
 
